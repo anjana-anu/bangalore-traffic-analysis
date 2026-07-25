@@ -20,9 +20,17 @@ The dataset was originally sourced from Kaggle and contains comprehensive metric
 *Note: The repository contains both the original raw data (`Banglore_traffic_Dataset_raw.csv`) and the processed, analytics-ready dataset (`bangalore_traffic_cleaned_final.csv`) which includes engineered features like Day of the Week.*
 
 ## 🛠️ Tools Used
-* **Python**: Data cleaning and Exploratory Data Analysis (EDA).
-* **Power BI**: Creation of interactive dashboards to visually communicate findings.
+* **Python**: Data cleaning and Exploratory Data Analysis (EDA) using Jupyter Notebook (`Final Project.ipynb`).
+* **Power BI**: Creation of interactive dashboards to visually communicate findings (`Final_Project.pbix`).
 * **PowerPoint**: Executive presentation summarizing insights and recommendations (`Final_Project.pptx`).
+
+## 🖼️ Visualizations & Dashboards
+
+### Power BI Dashboard
+![Power BI Dashboard](Screenshots/power_bi_dashboard.png)
+
+### Python Exploratory Data Analysis (Matplotlib)
+![Matplotlib EDA Graphs](Screenshots/matplot_lib_graphs.png)
 
 ## 💡 Key Findings
 1. **The Mid-Week Surge**: Traffic volume actually peaks mid-week, with Wednesdays seeing an average of 34,506 vehicles. This proves Bangalore's traffic has a heavily commercial profile that surges beyond the traditional weekend rushes.
@@ -40,5 +48,7 @@ Based on the data insights, the following infrastructure and management strategi
 ## 📂 Project Structure
 * `Banglore_traffic_Dataset_raw.csv`: The initial, uncleaned dataset.
 * `bangalore_traffic_cleaned_final.csv`: The cleaned dataset used for modeling and BI.
+* `Final Project.ipynb`: Jupyter notebook containing Python data cleaning and EDA.
+* `Final_Project.pbix`: The interactive Power BI dashboard tracking mobility metrics.
 * `Final_Project.pptx`: The executive summary presentation.
-* `[Insert Power BI File Name].pbix`: The interactive Power BI dashboard tracking mobility metrics.
+* `Screenshots/`: Visualization images used in documentation (`power_bi_dashboard.png`, `matplot_lib_graphs.png`).
